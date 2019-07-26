@@ -4,11 +4,13 @@
 minikube start
 ```
 wait a few minutes (~2 minutes)
+
 ## Install Wordpress and MariaDB
 ```
 helm install --name wordpress stable/wordpress
 ```
 wait a few more minutes (~4 minutes)
+
 ## Monitor Install
 ```
 helm list
